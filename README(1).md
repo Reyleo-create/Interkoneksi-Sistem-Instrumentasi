@@ -1,10 +1,46 @@
+🌾 Sistem Monitoring Suhu dan Kelembaban Terintegrasi IoT dan Blockchain untuk Penyimpanan Aman dan Berkualitas Komoditas Pertanian 🌾
+💡 Solusi Presisi untuk Gudang Jagung — Transparan, Akurat, dan Modern
+
+📖 Deskripsi Proyek
+Sistem ini dirancang untuk mendukung penyimpanan komoditas pertanian (jagung) secara aman, berkualitas, dan terjamin. Dengan integrasi teknologi Internet of Things (IoT) dan Blockchain, sistem memungkinkan pemantauan suhu serta kelembaban gudang secara real-time, sekaligus mencatat data secara immutable untuk menjamin keaslian dan transparansi di sepanjang rantai pasok.
+
+🏭 Proyek ini mengadopsi teknologi InfluxDB sebagai database time-series untuk penyimpanan data historis, Grafana untuk visualisasi daring, dan Qt GUI untuk monitoring lokal tanpa koneksi internet. Data ringkasan (hash) dicatat ke Ethereum blockchain sebagai bukti keaslian kondisi gudang, sehingga sistem mendukung prinsip traceability, auditabilitas, dan akuntabilitas bagi semua pemangku kepentingan (petani, distributor, konsumen).
+
+🌟 Poin Kunci Sistem (Sesuai Laporan Kelompok)
+🔹 Monitoring presisi berbasis IoT
+Menggunakan sensor digital industri (SHT20 dengan Modbus RTU/TCP) untuk membaca suhu dan kelembaban secara terus-menerus di gudang penyimpanan jagung.
+
+🔹 Penyimpanan & visualisasi real-time
+Data tersimpan secara time-series di InfluxDB, divisualisasikan melalui Grafana 🌐 dan Qt GUI 💻 agar mudah dipantau baik secara daring maupun offline.
+
+🔹 Keamanan data berbasis blockchain
+Ringkasan data (hash) dicatat pada smart contract Ethereum, mendukung keamanan, integritas, dan transparansi data.
+
+🔹 DApp & Web3
+Pengguna dapat memverifikasi hash data secara publik melalui aplikasi terdesentralisasi, memperkuat kepercayaan di rantai pasok.
+
+🔹 Kontribusi nyata untuk sektor pangan
+Meningkatkan kualitas penyimpanan, mengurangi kerugian pascapanen, dan mendukung transformasi digital Agriculture 4.0 di Indonesia.
+
+🎓 Mata Kuliah & Tim
+🛠 Interkoneksi Sistem Instrumentasi – VI231418
+👨‍🏫 Dosen: Ahmad Radhy, S.Si., M.Si.
+
+👥 Anggota Tim
+
+👤 Nama	🎓 NRP
+Andre Mahesa Bagaskara	2042231012
+Cahyo Okto Risfian	2042231044
+Siti Aisyah	2042231062
+
+⚙ Fitur Utama Sistem
+✅ Monitoring suhu & kelembaban real-time (sensor SHT20 + Modbus RTU/TCP)
+✅ Penyimpanan data historis dengan InfluxDB
+✅ Visualisasi data interaktif melalui Grafana dan Qt GUI
+✅ Pencatatan hash ringkasan data ke Ethereum Blockchain untuk integritas & transparansi
+✅ DApp Web3 untuk verifikasi publik & traceability
 
 # Tugas Interkoneksi Sistem Instrumentasi 
-
-
-
-
-
 
 ## TCP Server
 main.rs
